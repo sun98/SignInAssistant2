@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/float_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button_show_CPU"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cpu" />
+
+    <Button
+        android:id="@+id/button_netease_music"
+        android:layout_below="@id/button_show_CPU"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/netease_music" />
+
+</RelativeLayout>

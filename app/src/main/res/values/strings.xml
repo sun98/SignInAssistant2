@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Sign In Assistant</string>
+    <string name="qq_account_settings">帐户及设置</string>
+    <string name="qq_package_name">com.tencent.mobileqq</string>
+    <string name="string_hello">Hello again, Java</string>
+    <string name="string_acc_service_des">签到助手需要无障碍服务以实现自动点击</string>
+    <string name="string_acc_service_label">签到助手自动点击服务</string>
+    <string name="qq_signed">已打卡</string>
+    <string name="taobao_gold_0">领金币</string>
+    <string name="taobao_gold">点击开宝箱领金币</string>
+    <string name="taobao_up">转到上一层级</string>
+    <string name="taobao_package_name">com.taobao.taobao</string>
+    <string name="confirm">确定</string>
+    <string name="show_cpu">CPU使用情况</string>
+    <string name="qq_sign">QQ打卡</string>
+    <string name="test">Test</string>
+    <string name="signed">今日已打卡</string>
+    <string name="sign">打卡</string>
+    <string name="mi_market">小米商店</string>
+    <string name="open_float_window">开启悬浮窗</string>
+    <string name="cpu">CPU</string>
+    <string name="netease_music">网易云</string>
+    <string name="netease_sign_in">签到</string>
+    <string name="netease_already_signed">已签到</string>
+</resources>

@@ -1,0 +1,41 @@
+电源键
+sendevent /dev/input/event2 0x0001 0x009e 0x00000001
+sendevent /dev/input/event2 0x0000 0x0000 0x00000000
+sendevent /dev/input/event2 0x0001 0x009e 0x00000000
+sendevent /dev/input/event2 0x0000 0x0000 0x00000000
+
+点击、滑动
+/dev/input/event2: EV_ABS       ABS_MT_TRACKING_ID   00000775
+/dev/input/event2: EV_KEY       BTN_TOUCH            DOWN
+/dev/input/event2: EV_KEY       BTN_TOOL_FINGER      DOWN
+{
+/dev/input/event2: EV_ABS       ABS_MT_POSITION_X    000002f3
+/dev/input/event2: EV_ABS       ABS_MT_POSITION_Y    00000219
+/dev/input/event2: EV_SYN       SYN_REPORT           00000000
+}
+/dev/input/event2: EV_ABS       ABS_MT_TRACKING_ID   ffffffff
+/dev/input/event2: EV_KEY       BTN_TOUCH            UP
+/dev/input/event2: EV_KEY       BTN_TOOL_FINGER      UP
+/dev/input/event2: EV_SYN       SYN_REPORT           00000000
+
+/dev/input/event2: 0003 0039 00000785
+/dev/input/event2: 0001 014a 00000001
+/dev/input/event2: 0001 0145 00000001
+/dev/input/event2: 0003 0035 0000030c
+/dev/input/event2: 0003 0036 00000223
+/dev/input/event2: 0000 0000 00000000
+/dev/input/event2: 0003 0039 ffffffff
+/dev/input/event2: 0001 014a 00000000
+/dev/input/event2: 0001 0145 00000000
+/dev/input/event2: 0000 0000 00000000
+
+最近任务键
+/dev/input/event2: EV_KEY       KEY_MENU             DOWN
+/dev/input/event2: EV_SYN       SYN_REPORT           00000000
+/dev/input/event2: EV_KEY       KEY_MENU             UP
+/dev/input/event2: EV_SYN       SYN_REPORT           00000000
+
+/dev/input/event2: 0001 008b 00000001
+/dev/input/event2: 0000 0000 00000000
+/dev/input/event2: 0001 008b 00000000
+/dev/input/event2: 0000 0000 00000000

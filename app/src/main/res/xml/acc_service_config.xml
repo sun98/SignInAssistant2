@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android.packageNames="cn.nibius.sign_inassistant, com.tencent.mobileqq, com.taobao.taobao"
+    android:accessibilityEventTypes="typeAllMask"
+    android:accessibilityFeedbackType="feedbackSpoken"
+    android:accessibilityFlags="flagDefault"
+    android:canRetrieveWindowContent="true"
+    android:description="@string/string_acc_service_des"
+    android:notificationTimeout="100" />
+<!-- packageNames: listen which apps' operation. But it seems no egg use. -->
+<!-- all values can be found in https://developer.android.com/reference/android/R.styleable.html#AccessibilityService -->
